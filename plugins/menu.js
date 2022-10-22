@@ -7,7 +7,7 @@ let levelling = require('../lib/levelling')
  let PhoneNumber = require('awesome-phonenumber') 
  const defaultMenu = { 
    before: ` 
-꒦꒷꒷꒦꒷꒦꒦꒦꒷•〔 ll нασяι-вσт ཻུ⸙͎ 〕•꒦꒷꒷꒦꒷꒷꒦꒦꒷
+꒦꒷꒷꒦꒷꒦꒦꒦꒷•〔 ll 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 ཻུ⸙͎ 〕•꒦꒷꒷꒦꒷꒷꒦꒦꒷
 
  ✘⃟🎋   *Name:* %name
  ✘⃟🎋   *Tersisa:* %limit Limit
@@ -37,7 +37,7 @@ let levelling = require('../lib/levelling')
 ⁙╭⃝━━•›ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ▣ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙‹•━━─▣
 ⁙┃╭┈─────────────⩵꙰ཱི࿐
 ⁙┃╰───━⃝┅❲ *%category* ❳┅⃝━───ꕥ ↶↷
-⁙├☆─〔 HAORI CHAN 〕──┈➤`,
+⁙├☆─〔 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 X ©ᵂʰʸᶻᶻˣʸᵀᵉᵃᵐ 〕──┈➤`,
   body: `⁙├〲 %cmd %islimit %isPremium`,
   footer: `⁙╰•──────━⃝┅⃝━─═┅═━–┈ ⳹`,
   after: `
@@ -313,14 +313,14 @@ let fkon = { key:
 │◦〉 Mode : ${mode}
 │◦〉 Runtime: ${uptime}
 │◦〉 Bot Name : ${conn.user.name}
-│◦〉 Name Owner: Zivfurr & Haori
+│◦〉 Name Owner: KhrlMstfa
 │◦〉 Register : ${totalreg}
 │◦〉 Database : Lowdb
 ╰━–━–━–━–━–⊙–━–━–━–━┈▧`
 
 let ftt = `📮 Catatan: Perlakukan Bot Secara Baik, Dev Akan Bertindak Tegas Apabila Pengguna Melanggar Rules. 
                  
-                       「 *廾ΛӨЯI IQ MD ᯤ* 」`
+                       「 *'🚀 ┊ 𝙍𝙪𝙡𝙡𝘽𝙊𝙏 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ* 」`
      if (teks == '404') { 
       return await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/ed6e4421aff4471b172f0.jpg')).buffer(), tksk, ftt, 'COMMAND', '.simplemenu', 'DONASI', '.donasi', haori, { contextInfo: { mentionedJid: conn.parseMention(tksk), externalAdReply :{ 
      mediaUrl: `${pickRandom([`https://www.facebook.com/Inunime-107082474576049/`,`https://youtu.be/JWHV8lPTzPs`])}`, 
@@ -455,18 +455,18 @@ ptt: true, contextInfo:{ externalAdReply: {title: 'Stay Grateful With Your Lif
  } 
  function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Good Morning 🌆"
+  res = "Selamat Pagi 🌆"
   if (time >= 4) {
-    res = "Good Morning 🌄"
+    res = "Selamat Pagi 🌄"
   }
   if (time > 10) {
-    res = "Good Afternoon ☀️"
+    res = "Selamat Siang ☀️"
   }
   if (time >= 15) {
-    res = "Good Evening 🌇"
+    res = "Selamat Sore 🌇"
   }
   if (time >= 18) {
-    res = "Good Night 🌃"
+    res = "Selamat Malam 🌃"
   }
   return res
     }
